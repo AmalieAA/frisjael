@@ -10,12 +10,26 @@ $link-decoration: none;
 // 4. Include any default map overrides here
 $custom-colors: (
 	"farve": $cyan-400,
+	"baggrund": #F4EFED,
+	"borderfarve": #D1D1D1,
+	"success": #738C72
+
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
 
+.font-footer{
+	font-family: 'Roboto', sans-serif;
+}
+.font-bold{
+	font-weight: bold;
+}
+
+.copyright-icon{
+	font-size: 0.5em;
+}
 
 
 // 5. Du kan lave styling her...
