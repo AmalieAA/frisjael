@@ -1,8 +1,8 @@
-<footer class="container-fluid">
+<footer class=" bg-baggrund border-top border-borderfarve">
+    <div class="container-fluid container-md">
+    <div class="row font-footer text-success p-2">
 
-    <div class="row bg-baggrund border-top border-borderfarve font-footer text-success p-2">
-
-        <div class="col-12">
+        <div class="col-12 col-md-4">
             <p>
                 <strong>
                     Veteranhaven
@@ -16,7 +16,7 @@
                 <br>
             </p>
         </div>
-        <div class="col-12">
+        <div class="col-12 col-md-4">
             <p>
                 <i class="fa-solid fa-phone-flip"></i>
                 Tlf: 52 40 04 55
@@ -34,7 +34,7 @@
         </div>
 
 
-        <div class="col-12">
+        <div class="col-12 col-md-4 ps-md-5">
             <p>
                 Find os på
                 <br>
@@ -56,5 +56,5 @@
 
         </div>
     </div>
-
+    </div>
 </footer>
