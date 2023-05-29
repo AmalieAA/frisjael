@@ -12,7 +12,9 @@ $custom-colors: (
 	"farve": $cyan-400,
 	"baggrund": #F4EFED,
 	"borderfarve": #D1D1D1,
-	"success": #738C72
+	"success": #738C72,
+	"cta": #c4a1c6,
+
 
 );
 
@@ -21,7 +23,15 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 
+.kontaktformular{
+	font-family: "Roboto", sans-serif;
+}
+@media screen and (min-width: 768px){
 
+.kontaktformular > div{
+	border-radius: 10px;
+}
+}
 #Logo{
 	width: 60px;
 	height: auto;

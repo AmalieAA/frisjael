@@ -22,10 +22,12 @@
 
 
 <?php include "includes/header.php";?>
-<?php include "includes/footer.php";?>
-<div class="container-fluid">
-</div>
 
+<main class="container-fluid bg-baggrund">
+
+</main>
+
+<?php include "includes/footer.php";?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
