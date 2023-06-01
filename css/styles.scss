@@ -45,8 +45,19 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 }
 
+h1, h2, h3, h4, h5{
+	font-family: "Roboto", sans-serif;
+}
+
+p{
+	font-family: Roboto Serif;
+}
+
 .navbar{
 	font-family: "Roboto", sans-serif;
+}
+.nav-link.active {
+	border-bottom: 1px solid black;
 }
 .font-footer{
 	font-family: 'Roboto', sans-serif;

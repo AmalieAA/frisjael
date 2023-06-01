@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Bliv frivillig</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -23,30 +23,49 @@
 
 <?php include "includes/header.php";?>
 
-<main class="container-fluid">
+<main class="container-fluid container-xl">
 
     <div class="row">
         <div class="col-12 col-md-8 offset-md-2 p-4">
+
+            <h1>
+                Bliv frivillig
+            </h1>
+
             <p>
-                Lorem ipsum dolor sit amet,
-                consectetur adipisci elit,
-                sed eiusmod tempor incidunt
-                ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam,
-                quis nostrum exercitationem
-                ullam corporis suscipit laboriosam,
-                nisi ut aliquid ex ea commodi consequatur.
+
+
+                Vi har altid brug for flere frivillige i Veteranhaven,
+                og der er mange måder at hjælpe på. Hos os er du ikke kun
+                en frivillig, du er faktisk en Veteranhave-ven.
+                <br>
+                <br>
+                Det er helt op til dig, hvor meget tid du vil bruge
+                som Veteranhave-ven.
+                Opgaverne kan være mange, men det kan blandt andet
+                være, at hjælpe til ved arrangementer, du kan hjælpe
+                til med projekter i Haven, dele julehjælp ud til vores
+                veteran familier, eller noget helt andet. Det kan også være,
+                at du selv har et forslag til noget du har lyst til at gøre
+                som Veteranhave-ven. Det vil vi hellere end gerne høre.
+                <br>
+                <br>
+                Udfyld vores
+                <a href="#">
+                    kontaktformular
+                </a>
+                eller mød op hos os. Vi glæder os til at se dig 😊
             </p>
         </div>
     </div>
 
-    <div class="row bg-grøn py-5">
-        <div class="col-12 col-md-6 mb-4 mb-md-0">
-            <img class="img-fluid" src="images/stockphoto.webp"/>
+    <div class="row bg-grøn">
+        <div class="col-12 col-md-6 p-0 py-4 py-md-0 px-md-4">
+            <img class="img-fluid" src="images/mand-vander.png"/>
         </div>
 
-        <div class="col-12 col-md-6">
-            <img class="img-fluid" src="images/stockphoto.webp"/>
+        <div class="col-12 col-md-6 p-0 py-4 py-md-0 px-md-4">
+            <img class="img-fluid" src="images/brænde.png"/>
         </div>
 
     </div>
