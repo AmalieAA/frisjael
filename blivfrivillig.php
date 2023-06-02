@@ -51,7 +51,7 @@
                 <br>
                 <br>
                 Udfyld vores
-                <a href="#">
+                <a href="#Kontaktformular">
                     kontaktformular
                 </a>
                 eller mød op hos os. Vi glæder os til at se dig 😊
@@ -61,11 +61,11 @@
 
     <div class="row bg-grøn">
         <div class="col-12 col-md-6 p-0 py-4 py-md-0 px-md-4">
-            <img class="img-fluid" src="images/mand-vander.png"/>
+            <img class="img-fluid" src="images/mand-vander.png" alt="Et billed af en mand, som vander blomster"/>
         </div>
 
         <div class="col-12 col-md-6 p-0 py-4 py-md-0 px-md-4">
-            <img class="img-fluid" src="images/brænde.png"/>
+            <img class="img-fluid" src="images/Tulipan.jpg" alt="Et billed af tulipaner i haven"/>
         </div>
 
     </div>

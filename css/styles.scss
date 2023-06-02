@@ -44,15 +44,27 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 	}
 
 }
-
+body{
+	font-family: Roboto Serif;
+}
 h1, h2, h3, h4, h5{
 	font-family: "Roboto", sans-serif;
 }
 
+li{
+	font-family: Roboto Serif;
+}
 p{
 	font-family: Roboto Serif;
 }
-
+figure{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0;
+}
+figcaption{
+	font-size: xx-small;
+}
 .navbar{
 	font-family: "Roboto", sans-serif;
 }

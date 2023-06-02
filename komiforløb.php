@@ -5,6 +5,7 @@
 
     <title>Kom i forløb</title>
 
+    <meta name="keywords" content="PTSD-symptomer, PTSD-pårørende">
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
@@ -74,7 +75,7 @@
                 Hvis du har mod på det, yder vi haveservice for både erhverv og
                 private,
 
-                <a href="#"> det kan du læse om her</a>
+                <a href="omos.php"> det kan du læse om her</a>
 
                 , hvis du vil vide lidt mere om
                 det og tænker at det kunne være noget du gerne vil prøve. Derudover
@@ -96,7 +97,7 @@
                 måske har du også lyst til at blive frivillig i Veteranhaven.
                 Vi vil meget gerne have
 
-                <a href="#">flere frivillige</a>
+                <a href="blivfrivillig.php">flere frivillige</a>
 
                 i Veteranhaven, der kan
                 hjælpe til med stort og småt.
@@ -107,13 +108,20 @@
     </div>
 
 
-    <div class="row pb-5 border-bottom border-borderfarve">
-        <div class="col-12 col-md-6 bg-grøn p-0 py-4 py-md-0 px-md-4">
-            <img class="img-fluid" src="images/blå-blomster.jpg"/>
+    <div class="row bg-grøn">
+        <div class="col-12 col-md-6 p-0 pt-4 px-md-4">
+            <figure>
+            <img class="img-fluid" src="images/Blåklokke.jpg" alt="Et billed af blåklokker"/>
+                <figcaption class="p-2">Smukke blåklokker, som vokser ude i veteranhaven.</figcaption>
+            </figure>
         </div>
 
-        <div class="col-12 col-md-6 bg-grøn p-0 py-4 py-md-0 px-md-4">
-            <img class="img-fluid" src="images/flagstang.jpg"/>
+
+        <div class="col-12 col-md-6 p-0 pt-md-4 px-md-4">
+            <figure>
+                 <img class="img-fluid" src="images/flagstang.jpg" alt="Et billed af flagstangen i haven"/>
+                <figcaption class="p-2">Flagstangen, hvor alle mødes klokken ni. </figcaption>
+            </figure>
         </div>
     </div>
 

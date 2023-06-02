@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <title>Om os</title>
-
+    <meta name="Keywords" content="Havearbejde">
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
@@ -27,7 +27,7 @@
 
     <div class="row mb-4">
 
-        <div class="col-12 col-md-6 p-4 order-md-1 mb-4">
+        <div class="col-12 col-md-6 p-4 order-md-1">
             <h1>Veteranhaven for alle</h1>
             <p>
                 Veteranhaven er et frivilligt, gratis
@@ -55,22 +55,24 @@
                 i overgangen til et civilt liv.
                 <br>
                 <br>
-                <a href="#">
+                <a href="komiforløb.php">
                     Du kan læse meget mere om et forløb hos os her.
                 </a>
             </p>
 
         </div>
 
-        <div class="col-12 col-md-6">
-            <img class="img-fluid" src="images/mennesker-snak.png"/>
+        <div class="col-12 col-md-6 p-0 p-md-4 mb-4 d-lg-flex justify-content-center align-items-center ">
+            <figure>
+                <img class="img-fluid" src="images/mennesker-snak.png" alt="Et billed af mennesker, som taler sammen"/>
+            </figure>
         </div>
 
     </div>
 
-    <div class="row  border-top border-borderfarve">
-        <div class="col-12 col-md-6 order-2 order-md-0">
-             <img class="img-fluid" src="images/mennesker-går.png">
+    <div class="row border-top border-borderfarve">
+        <div class="col-12 col-md-6 order-2 order-md-0 p-0 p-md-4 mb-4 d-lg-flex justify-content-center align-items-center">
+             <img class="img-fluid" src="images/mennesker-går.png" alt="Et billed af to mennesker som går og snakker sammen">
         </div>
 
 
@@ -90,13 +92,13 @@
                 Vil du vide lidt mere om, hvad det betyder for
                 Veteranhaven,
 
-                <a href="#"> har vi skrevet mere om det her.</a>
+                <a href="samarbejde.php"> har vi skrevet mere om det her.</a>
             </p>
         </div>
 
     </div>
 
-    <div class=" row bg-grøn mb-4">
+    <div class=" row bg-grøn mb-4 mt-4">
         <div class="col-12 col-md-8 offset-md-2 p-4">
             <h2>Veteranhavens haveservice
             </h2>
@@ -127,9 +129,9 @@
         </div>
     </div>
 
-    <div class="row mb-4 border-top border-borderfarve">
+    <div class="row mt-5 border-top border-borderfarve">
         <div class="col-12 col-md-8 offset-md-2 p-4 p-md-5">
-            <h2>Kort over veteranhaven</h2>
+            <h2 class="text-success">Kort over veteranhaven</h2>
         <img  class="img-fluid" src="images/Haveplan.jpg"/>
         </div>
     </div>

@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	
 	<title>Forside</title>
-	
+	<meta name="keywords" content="Kæreste med PTSD">
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
-	
+
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/ddc56212a6.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,7 @@
     <h1 class="text-center p-4">Veteranhaven - Dit fristed</h1>
 
     <div class="text-center pb-5">
-        <img class="img-fluid" src="images/udsigt-over-haven.jpg"/>
+        <img class="img-fluid" src="images/udsigt-over-haven.jpg" alt="Et billed af udsigten udover veteranhaven"/>
     </div>
 
     <div class="row bg-grøn mb-4">
@@ -46,9 +46,8 @@
             </p>
         </div>
 
-        <div class="col-12 col-md-6 p-0 mb-3 mb-xl-0 ps-md-2 p-xl-2 d-flex align-items-center">
-            <img class="img-fluid" src="images/mennesker-viser.png"/>
-
+        <div class="col-12 col-md-6 p-0 p-md-4 mb-3 mb-xl-0 ps-md-2 p-xl-2 d-lg-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="images/mennesker-viser.png" alt="Et billed af to mennesker som snakker"/>
         </div>
 
     </div>
@@ -56,15 +55,12 @@
     <div class="row mb-5 ps-md-2">
 
         <div class="col-12 col-md-6 bg-grøn p-4 mb-4">
-            <p>
-                Lorem ipsum dolor sit amet,
-                consectetur adipisci elit,
-                sed eiusmod tempor incidunt
-                ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam,
-                quis nostrum exercitationem
-                ullam corporis suscipit laboriosam,
-                nisi ut aliquid ex ea commodi consequatur.
+            <h2>Introduktionsvideo
+
+            </h2>
+            <p>Har du lyst til at se, hvordan livet hos
+                veterangården er? Så kan du se vores
+                korte introduktionsvideo
             </p>
 
         </div>
