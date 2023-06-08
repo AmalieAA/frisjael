@@ -3,11 +3,18 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Begivenheder</title>
-
+    <title>Veteranhaven - Begivenheder</title>
+    <meta name="description" content="Har du lyst til at høre mere om Veteranhaven?🌺 Kom og besøg os, når vi gennem foråret har tre arrangementer, hvor du kan opleve både blomster og gode historier🌼"
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
+
+    <meta property="og:title" content="Veteranhaven - Begivenheder">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.amaliealiceandersen.dk/frisjael">
+    <meta property="og:image" content="images/Plakat .webp">
+    <meta property="og:description" content="se hvilke spændende begivenheder veteranhaven har lige nu ">
+    <meta property="og:locale" content="da_DK">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/ddc56212a6.js" crossorigin="anonymous"></script>
@@ -24,13 +31,26 @@
 <?php include "includes/header.php";?>
 
 <main class="container-fluid container-xl">
-    <div class="row border-bottom border-borderfarve p-4">
-        <div class="col-12 col-md-4 d-flex justify-content-center my-2">
+
+    <div class="row border-bottom border-borderfarve">
+
+
+        <nav class="p-4 pb-0 mb-0" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="link-secondary" href="index.php">Forside</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Begivenheder</li>
+            </ol>
+        </nav>
+
+
+        <div class="col-12 col-md-4 d-flex justify-content-center my-2 p-4">
             <div class="card bg-grøn text-white" style="width: 18rem;">
-                <img src="images/stockphoto.webp" class="card-img-top" alt="...">
+                <img src="images/Baal.webp" class="card-img-top" alt="Et billed af et bål">
                 <div class="card-body">
                     <h5 class="card-title">Bål og hygge</h5>
-                    <p class="card-text">Torsdag d.25 April
+                    <p class="card-text">Torsdag
+                        <br>
+                        D.25 April 2024
                         <br>
                         kl.17.00-19.00 </p>
                     <a href="#Bål" class="btn btn-cta text-white">Læs mere</a>
@@ -38,24 +58,36 @@
             </div>
         </div>
 
-      <div class="col-12 col-md-4 d-flex justify-content-center my-2">
+      <div class="col-12 col-md-4 d-flex justify-content-center my-2 p-4">
 
         <div class="card bg-grøn text-white" style="width: 18rem;">
-            <img src="images/stockphoto.webp" class="card-img-top" alt="...">
+            <img src="images/blomster_og_baal.webp" class="card-img-top" alt="Et billed af blomster og brænde">
             <div class="card-body">
                 <h5 class="card-title">Brænde og blomster</h5>
-                <p class="card-text"></p>
+                <p class="card-text">
+                    Torsdag
+                    <br>
+                    D.23 Maj 2024
+                    <br>
+                    kl.17.00-19.00
+                </p>
                 <a href="#Brænde" class="btn btn-cta text-white">Læs mere</a>
             </div>
         </div>
       </div>
 
-        <div class="col-12 col-md-4 d-flex justify-content-center my-2">
+        <div class="col-12 col-md-4 d-flex justify-content-center my-2 p-4">
         <div class="card bg-grøn text-white" style="width: 18rem;">
-            <img src="images/stockphoto.webp" class="card-img-top" alt="...">
+            <img src="images/Middelalderborg_card%20.webp" class="card-img-top" alt="Et billed af et middelalderborg">
             <div class="card-body">
                 <h5 class="card-title">Historier i haven</h5>
-                <p class="card-text"></p>
+                <p class="card-text">
+                    Torsdag
+                    <br>
+                    D.20 Juni 2024
+                    <br>
+                    kl.17.00-19.00
+                </p>
                 <a href="#Historie" class="btn btn-cta text-white">Læs mere</a>
             </div>
         </div>
@@ -64,8 +96,8 @@
     </div>
 
     <div id="Bål" class="row bg-grøn mt-5">
-        <div class="col-12 col-md-6 mb-2 p-0 p-md-2 d-lg-flex justify-content-center align-items-center">
-            <img class="img-fluid" src="images/bålsted.jpg" alt="Et billed af et bålsted"/>
+        <div class="col-12 col-md-6 mb-2 p-0 p-md-2 mt-md-3">
+            <img class="img-fluid" src="images/bålsted.webp" alt="Et billed af bålstedet i veteranhaven"/>
 
         </div>
 
@@ -100,8 +132,8 @@
 
 
     <div id="Brænde" class="row mt-5">
-        <div class="col-12 col-md-6 mb-2 p-0 p-md-2 d-lg-flex justify-content-center align-items-center">
-            <img class="img-fluid" src="images/brænde.png" alt="Et billed af en bunke brænde"/>
+        <div class="col-12 col-md-6 mb-2 p-0 p-md-2 mt-md-3">
+            <img class="img-fluid" src="images/brænde.webp" alt="Et billed af en bunke brænde"/>
 
         </div>
 
@@ -135,8 +167,8 @@
 
 
     <div id="Historie" class="row mt-5 mb-5 bg-grøn">
-        <div class="col-12 col-md-6 mb-2 p-0 p-md-2 d-lg-flex justify-content-center align-items-center">
-            <img class="img-fluid" src="images/Historie-i-haven.png" alt="Et billed af en person, som fortæller en historie"/>
+        <div class="col-12 col-md-6 mb-2 p-0 p-md-2 mt-md-3">
+            <img class="img-fluid" src="images/Historie-i-haven%20.webp" alt="Et billed af en person, som fortæller en historie"/>
 
         </div>
 

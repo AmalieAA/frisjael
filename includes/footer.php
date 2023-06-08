@@ -1,4 +1,4 @@
-<footer class=" bg-baggrund border-top border-borderfarve">
+<footer id="Footer" class=" bg-baggrund border-top border-borderfarve">
     <div class="container-fluid container-md">
     <div class="row font-footer text-success p-2">
 

@@ -3,11 +3,19 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Om os</title>
+    <title>Veteranhaven - Om os</title>
+    <meta name="description" content="Mangler du hjælp til havearbejde?🌸🍃 Hos Veteranhaven har vi styr på alt fra græsslåning til beskæring af blomster. Ring allerede i dag, så finder vi en løsning der passer dig.">
     <meta name="Keywords" content="Havearbejde">
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
+
+    <meta property="og:title" content="Veteranhaven for alle">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.amaliealiceandersen.dk/frisjael">
+    <meta property="og:image" content="images/mennesker-snak%20.webp">
+    <meta property="og:description" content="Læs mere om hvad veteranahven er, og hvad de kan tilbyde dig ">
+    <meta property="og:locale" content="da_DK">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/ddc56212a6.js" crossorigin="anonymous"></script>
@@ -23,9 +31,18 @@
 
 <?php include "includes/header.php";?>
 
+
 <main class="container-fluid container-xl">
 
+
     <div class="row mb-4">
+
+        <nav class="p-4 pb-0 mb-0" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="link-secondary" href="index.php">Forside</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Om os</li>
+            </ol>
+        </nav>
 
         <div class="col-12 col-md-6 p-4 order-md-1">
             <h1>Veteranhaven for alle</h1>
@@ -62,17 +79,17 @@
 
         </div>
 
-        <div class="col-12 col-md-6 p-0 p-md-4 mb-4 d-lg-flex justify-content-center align-items-center ">
+        <div class="col-12 col-md-6 p-0 p-md-4 mb-4 mt-md-2">
             <figure>
-                <img class="img-fluid" src="images/mennesker-snak.png" alt="Et billed af mennesker, som taler sammen"/>
+                <img class="img-fluid" src="images/mennesker-snak%20.webp" alt="Et billed af mennesker, som taler sammen"/>
             </figure>
         </div>
 
     </div>
 
     <div class="row border-top border-borderfarve">
-        <div class="col-12 col-md-6 order-2 order-md-0 p-0 p-md-4 mb-4 d-lg-flex justify-content-center align-items-center">
-             <img class="img-fluid" src="images/mennesker-går.png" alt="Et billed af to mennesker som går og snakker sammen">
+        <div class="col-12 col-md-6 order-2 order-md-0 p-0 p-md-4 mb-4 mt-md-2">
+             <img class="img-fluid" src="images/mennesker-går%20.webp" alt="Et billed af to mennesker taler sammen og går en tur i veteranhaven">
         </div>
 
 
@@ -98,7 +115,7 @@
 
     </div>
 
-    <div class=" row bg-grøn mb-4 mt-4">
+    <div id="Haveservice" class=" row bg-grøn mb-4 mt-4">
         <div class="col-12 col-md-8 offset-md-2 p-4">
             <h2>Veteranhavens haveservice
             </h2>
@@ -124,15 +141,18 @@
             </p>
         </div>
 
-        <div class="col-12 col-md-8 offset-md-2">
-            <img class="img-fluid" src="images/stockphoto.webp"/>
+        <div class="col-12 col-md-8 offset-md-2 p-0 pb-md-4">
+
+            <video width="100%" height="auto" controls poster="images/havevideo_thumbnail.webp">
+                <source src="images/Veteranhaven%20Haveservice.mp4">
+            </video>
         </div>
     </div>
 
     <div class="row mt-5 border-top border-borderfarve">
         <div class="col-12 col-md-8 offset-md-2 p-4 p-md-5">
             <h2 class="text-success">Kort over veteranhaven</h2>
-        <img  class="img-fluid" src="images/Haveplan.jpg"/>
+        <img  class="img-fluid" src="images/Haveplan.webp" alt="Et billed af haveplanen over veteranhaven"/>
         </div>
     </div>
 </main>

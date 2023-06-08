@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom border-borderfarve bg-baggrund">
     <div class="container-fluid container-xl p-0">
         <a class="navbar-brand fs-6 me-0" href="index.php">
-            <img class="m-2" id="Logo" src="images/Logo.png"/>
+            <img class="m-2" id="Logo" src="images/Logo%20.webp" alt="Et billed af veteranhavens logo"/>
             <span class="d-md-none">Veteranhaven - Fri sjæl</span>
         </a>
 

@@ -3,11 +3,19 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Samarbejde</title>
+    <title>Veteranhaven - Samarbejde</title>
+    <meta name="description" content="Veteranhaven er en socialøkonomisk virksomhed🌐 Det betyder at vores formål er, at skabe en positiv forandring i samfundet og reinvestere det overskud vi tjener i Veteranhaven.">
     <meta name="Keywords" content="Socialøkonimisk virksomhed">
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
+
+    <meta property="og:title" content="Veteranhaven - Samarbejde">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.amaliealiceandersen.dk/frisjael">
+    <meta property="og:image" content="images/mennesker-går%20.webp">
+    <meta property="og:description" content="Læs mere om hvad det vil sige at være en socialøkonomisk virksomhed.">
+    <meta property="og:locale" content="da_DK">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/ddc56212a6.js" crossorigin="anonymous"></script>
@@ -26,6 +34,13 @@
 <main class="container-fluid container-xl">
 
     <div class="row">
+
+        <nav class="p-4 pb-0 mb-0" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="link-secondary" href="index.php">Forside</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Samarbejde</li>
+            </ol>
+        </nav>
 
         <div class="col-12 col-md-8 offset-md-2 p-4">
             <h1>Veteranhaven - En Socialøkonomisk Virksomhed</h1>
@@ -77,13 +92,13 @@
     
     <div class="row py-4 border-top border-borderfarve">
        <div class="col-12 col-md-4 p-0 mb-3 p-md-2">
-           <img class="img-fluid" src="images/Tulipan-i-potte.jpg" alt="Et billed af tilipaner i potter">
+           <img class="img-fluid" src="images/Tulipan-i-potte%20.webp" alt="Et billed af tilipaner i potter">
        </div>
         <div class="col-12 col-md-4 p-0 mb-3 p-md-2">
-            <img class="img-fluid" src="images/dyr.jpg" alt="Et billed af havens dyr">
+            <img class="img-fluid" src="images/dyr.webp" alt="Et billed af havens dyr">
         </div>
         <div class="col-12 col-md-4 p-0 p-md-2">
-            <img class="img-fluid" src="images/mursten.jpg" alt="Et billed af mursten i haven">
+            <img class="img-fluid" src="images/mursten%20.webp" alt="Et billed af mursten i haven">
         </div>
     </div>
 
@@ -99,7 +114,7 @@
             <br>
             <br>
             Giv os endelig et
-            <a href="#">ring</a>
+            <a href="#Footer ">ring</a>
             eller udfyld vores
             <a href="#Kontaktformular">kontaktformular</a>, hvis du vil høre mere.
         </p>

@@ -3,11 +3,23 @@
 <head>
 	<meta charset="utf-8">
 	
-	<title>Forside</title>
+	<title>Veteranhaven - Dit fristed</title>
+    <meta name="description" content="Er du kæreste med ptsd ramt?
+    Veteranhaven kan måske hjælpe både dig og din kæreste.
+    Vores arbejde i haven kan være med til at skabe mere ro i hovedet
+    og møde andre, der forstår dig.">
 	<meta name="keywords" content="Kæreste med PTSD">
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
+
+    <meta property="og:title" content="Veteranhaven - Dit fristed">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.amaliealiceandersen.dk/frisjael">
+    <meta property="og:image" content="images/udsigt-over-haven%20copy.webp">
+    <meta property="og:description" content="vil du vide mere om veteranhaven? så læs mere om her">
+    <meta property="og:locale" content="da_DK">
+
 
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/ddc56212a6.js" crossorigin="anonymous"></script>
@@ -23,11 +35,13 @@
 
 <?php include "includes/header.php";?>
 
+
 <main class="container-fluid container-xl">
-    <h1 class="text-center p-4">Veteranhaven - Dit fristed</h1>
+
+    <h1 class="text-center p-4">Veteranhaven - Dit Fristed</h1>
 
     <div class="text-center pb-5">
-        <img class="img-fluid" src="images/udsigt-over-haven.jpg" alt="Et billed af udsigten udover veteranhaven"/>
+        <img class="img-fluid" src="images/udsigt.webp" alt="Et billed af udsigten udover veteranhaven"/>
     </div>
 
     <div class="row bg-grøn mb-4">
@@ -46,27 +60,29 @@
             </p>
         </div>
 
-        <div class="col-12 col-md-6 p-0 p-md-4 mb-3 mb-xl-0 ps-md-2 p-xl-2 d-lg-flex justify-content-center align-items-center">
-                <img class="img-fluid" src="images/mennesker-viser.png" alt="Et billed af to mennesker som snakker"/>
+        <div class="col-12 col-md-6 p-0 p-md-4 mb-3 mb-xl-0 ps-md-2 p-xl-2">
+                <img class="img-fluid" src="images/mennesker-viser.webp" alt="Et billed af to mennesker som snakker i Veteranhaven"/>
         </div>
 
     </div>
 
-    <div class="row mb-5 ps-md-2">
+    <div class="row mb-5 ps-md-2 bg-grøn">
 
-        <div class="col-12 col-md-6 bg-grøn p-4 mb-4">
+        <div class="col-12 col-md-6 p-4 mb-4">
             <h2>Introduktionsvideo
 
             </h2>
             <p>Har du lyst til at se, hvordan livet hos
                 veterangården er? Så kan du se vores
-                korte introduktionsvideo
+                korte introduktionsvideo her:
             </p>
 
         </div>
 
-        <div class="col-12 col-md-6">
-            <img class="img-fluid" src="images/stockphoto.webp"/>
+        <div class="col-12 col-md-6 p-0 p-md-4">
+            <video width="100%" height="auto" controls poster="images/introvideo_thumbnail.webp">
+                <source src="images/Veteranhaven%20Intro.mp4">
+            </video>
         </div>
 
     </div>

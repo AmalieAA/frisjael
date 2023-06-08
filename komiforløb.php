@@ -3,12 +3,19 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Kom i forløb</title>
-
+    <title>Veteranhaven - Kom i forløb</title>
+    <meta name="description" content="Har du ptsd symptomer? Så kan det hjælpe at komme til Veteranhaven og møde ligesindede og skabe mere ro i dit hoved og måske få en god snak med andre der har det som dig.">
     <meta name="keywords" content="PTSD-symptomer, PTSD-pårørende">
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
+
+    <meta property="og:title" content="Veteranhaven - Kom i forløb">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="www.amaliealiceandersen.dk/frisjael">
+    <meta property="og:image" content="images/mennesker-viser.webp">
+    <meta property="og:description" content="Læs mere om hvem du kan møde i veteranhaven, og hvordan er dag ser ud.">
+    <meta property="og:locale" content="da_DK">
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/ddc56212a6.js" crossorigin="anonymous"></script>
@@ -24,9 +31,18 @@
 
 <?php include "includes/header.php";?>
 
+
 <main class="container-fluid container-xl">
 
+
     <div class="row">
+
+        <nav class="p-4 pb-0 mb-0" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a class="link-secondary" href="index.php">Forside</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kom i forløb</li>
+            </ol>
+        </nav>
         <div class="col-12 col-md-8 offset-md-2 p-4">
             <h1>
                 Hvem kan du møde i Veteranhaven?
@@ -75,7 +91,7 @@
                 Hvis du har mod på det, yder vi haveservice for både erhverv og
                 private,
 
-                <a href="omos.php"> det kan du læse om her</a>
+                <a href="omos.php #Haveservice"> det kan du læse om her</a>
 
                 , hvis du vil vide lidt mere om
                 det og tænker at det kunne være noget du gerne vil prøve. Derudover
@@ -109,19 +125,18 @@
 
 
     <div class="row bg-grøn">
-        <div class="col-12 col-md-6 p-0 pt-4 px-md-4">
-            <figure>
-            <img class="img-fluid" src="images/Blåklokke.jpg" alt="Et billed af blåklokker"/>
-                <figcaption class="p-2">Smukke blåklokker, som vokser ude i veteranhaven.</figcaption>
-            </figure>
+        <div class="col-12 col-md-4 p-0 py-4 pb-0 py-md-0 px-md-4">
+            <img class="img-fluid" src="images/Blåklokke.webp" alt="Et billed af blåklokker"/>
+
         </div>
 
 
-        <div class="col-12 col-md-6 p-0 pt-md-4 px-md-4">
-            <figure>
-                 <img class="img-fluid" src="images/flagstang.jpg" alt="Et billed af flagstangen i haven"/>
-                <figcaption class="p-2">Flagstangen, hvor alle mødes klokken ni. </figcaption>
-            </figure>
+        <div class="col-12 col-md-4 p-0 py-4 pb-0 py-md-0 px-md-4">
+                 <img class="img-fluid" src="images/flagstang.webp" alt="Et billed af flagstangen i veteranhaven"/>
+        </div>
+
+        <div class="col-12 col-md-4 p-0 py-4 py-md-0 px-md-4">
+            <img class="img-fluid" src="images/bålhytte.webp" alt="Et billed af bålhytten i veteranhaven"/>
         </div>
     </div>
 
