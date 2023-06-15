@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <title>Veteranhaven - Om os</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.64x64.webp">
     <meta name="description" content="Mangler du hjælp til havearbejde?🌸🍃 Hos Veteranhaven har vi styr på alt fra græsslåning til beskæring af blomster. Ring allerede i dag, så finder vi en løsning der passer dig.">
     <meta name="Keywords" content="Havearbejde">
     <meta name="robots" content="All">
@@ -32,7 +33,7 @@
 <?php include "includes/header.php";?>
 
 
-<main class="container-fluid container-xl">
+<main class="container-fluid container-xxl">
 
 
     <div class="row mb-4">
@@ -81,7 +82,7 @@
 
         <div class="col-12 col-md-6 p-0 p-md-4 mb-4 mt-md-2">
             <figure>
-                <img class="img-fluid" src="images/mennesker-snak%20.webp" alt="Et billed af mennesker, som taler sammen"/>
+                <img class="img-fluid" src="images/mennesker-snak%20.webp" alt="Et billed af mennesker, som taler sammen">
             </figure>
         </div>
 
@@ -103,7 +104,9 @@
                 Det lyder måske lidt kedeligt, men det er det slet ikke, og hvis du er interesseret i
                 at læse mere om hvad en socialøkonomisk virksomhed er, kan du
 
-                <a href="#">finde en masse information hos kommunen lige her.</a>
+                <a href="https://www.slagelse.dk/da/service-og-selvbetjening/erhverv-og-virksomhed/start-og-udvikling-af-virksomhed/socialoekonomi/">
+                    finde en masse information hos kommunen lige her.
+                </a>
                 <br>
                 <br>
                 Vil du vide lidt mere om, hvad det betyder for
@@ -142,8 +145,7 @@
         </div>
 
         <div class="col-12 col-md-8 offset-md-2 p-0 pb-md-4">
-
-            <video width="100%" height="auto" controls poster="images/havevideo_thumbnail.webp">
+            <video controls poster="images/havevideo_thumbnail.webp">
                 <source src="images/Veteranhaven%20Haveservice.mp4">
             </video>
         </div>
@@ -152,7 +154,7 @@
     <div class="row mt-5 border-top border-borderfarve">
         <div class="col-12 col-md-8 offset-md-2 p-4 p-md-5">
             <h2 class="text-success">Kort over veteranhaven</h2>
-        <img  class="img-fluid" src="images/Haveplan.webp" alt="Et billed af haveplanen over veteranhaven"/>
+        <img  class="img-fluid" src="images/Haveplan.webp" alt="Et billed af haveplanen over veteranhaven">
         </div>
     </div>
 </main>

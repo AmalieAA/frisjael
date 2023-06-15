@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <title>Veteranhaven - Kom i forløb</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.64x64.webp">
     <meta name="description" content="Har du ptsd symptomer? Så kan det hjælpe at komme til Veteranhaven og møde ligesindede og skabe mere ro i dit hoved og måske få en god snak med andre der har det som dig.">
     <meta name="keywords" content="PTSD-symptomer, PTSD-pårørende">
     <meta name="robots" content="All">
@@ -32,7 +33,7 @@
 <?php include "includes/header.php";?>
 
 
-<main class="container-fluid container-xl">
+<main class="container-fluid container-xxl">
 
 
     <div class="row">
@@ -98,7 +99,9 @@
                 kan du komme en tur til Sprogø og være med til vedligeholdelse af øen,
                 men det kan du også
 
-                <a href="#">læse mere om her</a>
+                <a href="https://www.dr.dk/nyheder/regionale/sjaelland/krigsveteraner-i-job-paa-sprogoe-naturen-giver-ro-i-hovedet">
+                    læse mere om her
+                </a>
                     .
 
             </p>

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <title>Veteranhaven - Bliv frivillig</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.64x64.webp">
     <meta name="description" content="Har du lyst til at blive frivillig?👏 Hos veteranhaven har vi altid brug for flere frivillige.Vi glæder os til at høre fra dig😊"
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -31,7 +32,7 @@
 
 <?php include "includes/header.php";?>
 
-<main class="container-fluid container-xl">
+<main class="container-fluid container-xxl">
 
     <div class="row">
 
@@ -76,11 +77,11 @@
 
     <div class="row bg-grøn">
         <div class="col-12 col-md-6 p-0 py-4 pb-0 py-md-0 px-md-4">
-            <img class="img-fluid" src="images/mand-vander%20.webp" alt="Et billed af en mand, som vander blomster"/>
+            <img class="img-fluid" src="images/mand-vander%20.webp" alt="Et billed af en mand, som vander blomster">
         </div>
 
         <div class="col-12 col-md-6 p-0 py-4 py-md-0 px-md-4">
-            <img class="img-fluid" src="images/Tulipan%20.webp" alt="Et billed af tulipaner i haven"/>
+            <img class="img-fluid" src="images/Tulipan%20.webp" alt="Et billed af tulipaner i haven">
         </div>
 
     </div>

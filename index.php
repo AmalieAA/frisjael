@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	
 	<title>Veteranhaven - Dit fristed</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.64x64.webp">
     <meta name="description" content="Er du kæreste med ptsd ramt?
     Veteranhaven kan måske hjælpe både dig og din kæreste.
     Vores arbejde i haven kan være med til at skabe mere ro i hovedet
@@ -36,12 +37,14 @@
 <?php include "includes/header.php";?>
 
 
-<main class="container-fluid container-xl">
+<main class="container-fluid container-xxl">
 
     <h1 class="text-center p-4">Veteranhaven - Dit Fristed</h1>
 
-    <div class="text-center pb-5">
-        <img class="img-fluid" src="images/udsigt.webp" alt="Et billed af udsigten udover veteranhaven"/>
+    <div class="row mb-5">
+        <div class="col-12 p-0 text-center">
+            <img class="img-fluid" src="images/udsigt.webp" alt="Et billed af udsigten udover veteranhaven">
+        </div>
     </div>
 
     <div class="row bg-grøn mb-4">
@@ -61,26 +64,26 @@
         </div>
 
         <div class="col-12 col-md-6 p-0 p-md-4 mb-3 mb-xl-0 ps-md-2 p-xl-2">
-                <img class="img-fluid" src="images/mennesker-viser.webp" alt="Et billed af to mennesker som snakker i Veteranhaven"/>
+                <img class="img-fluid" src="images/mennesker-viser.webp" alt="Et billed af to mennesker som snakker i Veteranhaven">
         </div>
 
     </div>
 
     <div class="row mb-5 ps-md-2 bg-grøn">
 
-        <div class="col-12 col-md-6 p-4 mb-4">
+        <div class="col-12 col-md-6 p-4">
             <h2>Introduktionsvideo
 
             </h2>
             <p>Har du lyst til at se, hvordan livet hos
-                veterangården er? Så kan du se vores
+                veteranhaven er? Så kan du se vores
                 korte introduktionsvideo her:
             </p>
 
         </div>
 
-        <div class="col-12 col-md-6 p-0 p-md-4">
-            <video width="100%" height="auto" controls poster="images/introvideo_thumbnail.webp">
+        <div class="col-12 col-md-6 p-0 p-md-4 mb-3 mb-xl-0 ps-md-2 p-xl-2">
+            <video controls poster="images/introvideo_thumbnail.webp">
                 <source src="images/Veteranhaven%20Intro.mp4">
             </video>
         </div>

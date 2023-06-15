@@ -18,16 +18,22 @@
         </div>
         <div class="col-12 col-md-4">
             <p>
+                <a class="link-success" href="tel:52400455">
                 <i class="fa-solid fa-phone-flip"></i>
                 Tlf: 52 40 04 55
+                </a>
                 <br>
+                <a class="link-success" href="mailto:administration@veteranhaven.dk">
                 <i class="fa-solid fa-envelope"></i>
                 E-mail: administration@veteranhaven.dk
+                </a>
                 <br>
                 <br>
                 <i class="fa-solid fa-arrow-right"></i>
-                www.veteranhaven.dk
-                <br>
+                <a class="link-success" href="https://www.veteranhaven.dk/">
+                    www.veteranhaven.dk
+                    <br>
+                </a>
                 <br>
             </p>
 
@@ -38,7 +44,9 @@
             <p>
                 Find os på
                 <br>
+                <a class="link-success" href="https://www.facebook.com/VeteranHaven/?ref=embed_page">
                 <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
                 <i class="fa-brands fa-linkedin fa-2x"></i>
                 <br>
                 <br>

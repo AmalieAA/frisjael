@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <title>Veteranhaven - Samarbejde</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.64x64.webp">
     <meta name="description" content="Veteranhaven er en socialøkonomisk virksomhed🌐 Det betyder at vores formål er, at skabe en positiv forandring i samfundet og reinvestere det overskud vi tjener i Veteranhaven.">
     <meta name="Keywords" content="Socialøkonimisk virksomhed">
     <meta name="robots" content="All">
@@ -31,7 +32,7 @@
 
 <?php include "includes/header.php";?>
 
-<main class="container-fluid container-xl">
+<main class="container-fluid container-xxl">
 
     <div class="row">
 
@@ -114,7 +115,7 @@
             <br>
             <br>
             Giv os endelig et
-            <a href="#Footer ">ring</a>
+            <a href="tel:52400455">ring</a>
             eller udfyld vores
             <a href="#Kontaktformular">kontaktformular</a>, hvis du vil høre mere.
         </p>

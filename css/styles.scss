@@ -52,11 +52,12 @@ h1, h2, h3, h4, h5{
 	font-family: "Roboto", sans-serif;
 }
 
-li{
-	font-family: Roboto Serif;
+.breadcrumb{
+	font-family: "Roboto", sans-serif;
 }
 p{
 	font-family: Roboto Serif;
+	line-height: 1.8em;
 }
 figure{
 	display: flex;
@@ -66,7 +67,8 @@ figure{
 figcaption{
 	font-size: xx-small;
 }
-.navbar{
+.navbar,
+.nav-link {
 	font-family: "Roboto", sans-serif;
 }
 .nav-link.active {
@@ -79,6 +81,11 @@ figcaption{
 .copyright-icon{
 	font-size: 0.5em;
 }
-// 5. Du kan lave styling her...
+
+video{
+	width: 100%;
+	height: auto;
+}
+
 
 

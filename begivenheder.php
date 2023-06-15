@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <title>Veteranhaven - Begivenheder</title>
+    <link rel="icon" type="image/x-icon" href="images/Logo.64x64.webp">
     <meta name="description" content="Har du lyst til at høre mere om Veteranhaven?🌺 Kom og besøg os, når vi gennem foråret har tre arrangementer, hvor du kan opleve både blomster og gode historier🌼"
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -30,7 +31,7 @@
 
 <?php include "includes/header.php";?>
 
-<main class="container-fluid container-xl">
+<main class="container-fluid container-xxl">
 
     <div class="row border-bottom border-borderfarve">
 
@@ -97,7 +98,7 @@
 
     <div id="Bål" class="row bg-grøn mt-5">
         <div class="col-12 col-md-6 mb-2 p-0 p-md-2 mt-md-3">
-            <img class="img-fluid" src="images/bålsted.webp" alt="Et billed af bålstedet i veteranhaven"/>
+            <img class="img-fluid" src="images/bålsted.webp" alt="Et billed af bålstedet i veteranhaven">
 
         </div>
 
@@ -133,7 +134,7 @@
 
     <div id="Brænde" class="row mt-5">
         <div class="col-12 col-md-6 mb-2 p-0 p-md-2 mt-md-3">
-            <img class="img-fluid" src="images/brænde.webp" alt="Et billed af en bunke brænde"/>
+            <img class="img-fluid" src="images/brænde.webp" alt="Et billed af en bunke brænde">
 
         </div>
 
@@ -168,7 +169,7 @@
 
     <div id="Historie" class="row mt-5 mb-5 bg-grøn">
         <div class="col-12 col-md-6 mb-2 p-0 p-md-2 mt-md-3">
-            <img class="img-fluid" src="images/Historie-i-haven%20.webp" alt="Et billed af en person, som fortæller en historie"/>
+            <img class="img-fluid" src="images/Historie-i-haven%20.webp" alt="Et billed af en person, som fortæller en historie">
 
         </div>
 
@@ -184,7 +185,7 @@
                 Veteranhaven er bygget som Trelleborg?
                 <br>
                 <br>
-                Rene, som har startet Veteranhaven, er fyldt med fortællinger
+                René, som har startet Veteranhaven, er fyldt med fortællinger
                 og gode historier. I dag vil han tage os andre med rundt i Haven
                 og fortælle om projekter der allerede er bygget, men også kommende
                 projekter, som er i gang.
@@ -192,7 +193,7 @@
                 <br>
                 Vi kan blandt andet løfte sløret for en fortælling,
                 hvor Gåsetårnet indgår. Så siger vi heller ikke mere, for
-                den fortælling er meget bedre, når Rene fortæller den.
+                den fortælling er meget bedre, når René fortæller den.
                 <br>
                 <br>
                 Vi glæder os til en tur rundt i Haven, som ud over at rumme
